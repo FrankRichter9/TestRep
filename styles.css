@@ -1,0 +1,113 @@
+body { 
+    background-color: rgba(68, 68, 68, 0.644);
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+
+    background: #FFFFFF;
+    padding: 18px 0;
+    box-sizing: border-box;
+}
+
+.header__content {
+    width: 1206px;
+    height: 43px;
+
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header__content__circle{
+    width: 26px;
+    height: 26px;
+
+
+    background-color: #5E81FE;
+    border-radius: 13px;
+}
+
+.navigation__list {
+    list-style: none;
+    height: 15px;
+   
+    display: flex;
+    gap: 42px;
+    align-items: center;
+    /* расстояние между flex элементами */
+
+    margin: 0 0 0 72px;
+}
+
+.navigation__list__item button {
+    border: none;
+    background-color: transparent;
+    height: 15px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #697CA6;
+}
+
+.navigation__list__item:hover button {
+    cursor: pointer;
+    font-weight: 900;
+    color: #5E81FE;
+}
+
+.icons-list {
+    height: 17px;
+
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    gap: 36px;
+
+    margin: 0 0 0 330px;
+}
+
+.icons-list__item svg {
+    fill: #B6BAC7;
+}
+
+.icons-list__item:hover svg {
+    cursor: pointer;
+    fill: #6188FF;
+}
+
+.button-start{
+    padding: 14px 16px;
+    box-sizing: border-box;
+
+    width: 113px;
+    height: 43px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A79FF;
+
+    background-color: #D2E1FF;
+    border: none;
+    border-radius: 2px;
+
+    margin: 0 0 0 44px;
+}
+
+.button-start:hover {
+    cursor: pointer;
+    background-color: #9cbaf6;
+}
